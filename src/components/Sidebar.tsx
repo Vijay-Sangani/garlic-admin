@@ -35,6 +35,8 @@ const Icon = ({ name }: { name: IconName }): JSX.Element => {
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path
           d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           strokeWidth={2}
         />
       </svg>
@@ -43,6 +45,8 @@ const Icon = ({ name }: { name: IconName }): JSX.Element => {
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path
           d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           strokeWidth={2}
         />
       </svg>
@@ -51,6 +55,8 @@ const Icon = ({ name }: { name: IconName }): JSX.Element => {
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path
           d="M12 21C12 21 7 16 7 11.5C7 8.5 9 6 12 6C12 6 12 3 15 3C18 3 19 5 19 7C19 9 17 11 15 11C15 11 17 13 17 15.5C17 18 15 21 12 21Z"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           strokeWidth={2}
         />
       </svg>
@@ -59,29 +65,48 @@ const Icon = ({ name }: { name: IconName }): JSX.Element => {
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <circle cx="9" cy="9" r="2" strokeWidth={2} />
         <circle cx="15" cy="15" r="2" strokeWidth={2} />
+        <path
+          d="M6 6C6 4 8 2 12 2C16 2 18 4 18 6C18 8 16 10 12 10C8 10 6 8 6 6Z M6 18C6 16 8 14 12 14C16 14 18 16 18 18C18 20 16 22 12 22C8 22 6 20 6 18Z"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+        />
       </svg>
     ),
     "credit-card": (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <rect height="14" rx="2" strokeWidth={2} width="20" x="2" y="5" />
+        <path d="M2 10h20" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} />
       </svg>
     ),
     "chart-bar": (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path
-          d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2z"
+          d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           strokeWidth={2}
         />
       </svg>
     ),
     menu: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path d="M4 6h16M4 12h16M4 18h16" strokeWidth={2} />
+        <path
+          d="M4 6h16M4 12h16M4 18h16"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+        />
       </svg>
     ),
     x: (
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path d="M6 18L18 6M6 6l12 12" strokeWidth={2} />
+        <path
+          d="M6 18L18 6M6 6l12 12"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+        />
       </svg>
     ),
   };
